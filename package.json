@@ -10,22 +10,23 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "axios": "^1.7.4",
     "bootstrap": "^5.3.3",
     "prop-types": "^15.8.1",
-    "react": "^18.3.1",
+    "react": "^17.0.0",
     "react-bootstrap": "^2.10.4",
-    "react-dom": "^18.3.1",
+    "react-dom": "^17.0.0",
     "react-router": "^6.24.1",
-    "react-router-dom": "^6.24.1",
-    "axios": "^1.7.4"
+    "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.24.7",
+    "@parcel/config-default": "^2.12.0",
+    "@parcel/reporter-dev-server": "^2.12.0",
+    "@parcel/resolver-default": "^2.12.0",
     "@parcel/transformer-sass": "^2.12.0",
     "buffer": "^6.0.3",
     "parcel": "^2.12.0",
-    "process": "^0.11.10",
-    "@parcel/config-default": "^2.12.0",
-    "@parcel/resolver-default": "^2.12.0",
-    "@parcel/reporter-dev-server": "^2.12.0"
+    "process": "^0.11.10"
   }
 }
