@@ -1,0 +1,39 @@
+// Import Bootstrap SCSS if you need to customize Bootstrap styles
+@import '~bootstrap/scss/bootstrap';
+
+// Define SCSS variables for consistent styling
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-family-base: 'Arial, sans-serif';
+
+// Global styles
+body {
+  font-family: $font-family-base;
+  background-color: #f8f9fa;
+  color: $secondary-color;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 15px;
+}
+
+.header {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.button-primary {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
